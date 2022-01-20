@@ -13,4 +13,4 @@ Written and compiled in Java 16 and as a Maven project.
 Windows:
 
 To run the program use this command
-java -f D:\cooki-log.csv -d 2018-12-9
+java -f D:\cookie-log.csv -d 2018-12-9

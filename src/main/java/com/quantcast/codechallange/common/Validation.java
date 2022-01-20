@@ -36,7 +36,7 @@ public class Validation {
     }
 
     public static boolean validateArgs(String[] args){
-        if(args == null || args.length >= 6) {
+        if(args == null || args.length == 0 || args.length >= 6) {
             log.info(AppConfig.getProperty("validation.args"));
             throw new InvalidArgsException();
         }
