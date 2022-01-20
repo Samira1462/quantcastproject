@@ -1,4 +1,4 @@
-package com.quantcast.codechallange.model;
+package com.quantcast.codechallenge.model;
 
 public class Cookie {
     private String cookieName;

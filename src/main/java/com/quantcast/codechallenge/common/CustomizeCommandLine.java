@@ -1,6 +1,6 @@
-package com.quantcast.codechallange.common;
+package com.quantcast.codechallenge.common;
 
-import com.quantcast.codechallange.config.AppConfig;
+import com.quantcast.codechallenge.config.AppConfig;
 import org.apache.commons.cli.*;
 
 import java.util.logging.Logger;

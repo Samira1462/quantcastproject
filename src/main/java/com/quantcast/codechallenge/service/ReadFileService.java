@@ -1,6 +1,6 @@
-package com.quantcast.codechallange.service;
+package com.quantcast.codechallenge.service;
 
-import com.quantcast.codechallange.model.Cookie;
+import com.quantcast.codechallenge.model.Cookie;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

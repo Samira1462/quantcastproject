@@ -1,6 +1,6 @@
-package com.quantcast.codechallange.service;
+package com.quantcast.codechallenge.service;
 
-import com.quantcast.codechallange.model.Cookie;
+import com.quantcast.codechallenge.model.Cookie;
 import org.apache.commons.collections4.MapUtils;
 
 import java.util.HashMap;

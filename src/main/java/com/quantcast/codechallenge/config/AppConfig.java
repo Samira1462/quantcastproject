@@ -1,6 +1,6 @@
-package com.quantcast.codechallange.config;
+package com.quantcast.codechallenge.config;
 
-import com.quantcast.codechallange.exception.AppProcessingException;
+import com.quantcast.codechallenge.exception.AppProcessingException;
 
 import java.io.IOException;
 import java.io.InputStream;

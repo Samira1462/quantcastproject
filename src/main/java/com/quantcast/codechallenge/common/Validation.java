@@ -1,9 +1,9 @@
-package com.quantcast.codechallange.common;
+package com.quantcast.codechallenge.common;
 
-import com.quantcast.codechallange.config.AppConfig;
-import com.quantcast.codechallange.exception.FileNotExistException;
-import com.quantcast.codechallange.exception.InvalidArgsException;
-import com.quantcast.codechallange.exception.InvalidDateFormatException;
+import com.quantcast.codechallenge.config.AppConfig;
+import com.quantcast.codechallenge.exception.FileNotExistException;
+import com.quantcast.codechallenge.exception.InvalidArgsException;
+import com.quantcast.codechallenge.exception.InvalidDateFormatException;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;

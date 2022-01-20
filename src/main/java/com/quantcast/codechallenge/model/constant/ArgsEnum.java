@@ -1,4 +1,4 @@
-package com.quantcast.codechallange.model.constant;
+package com.quantcast.codechallenge.model.constant;
 
 public enum ArgsEnum {
     F("f"),

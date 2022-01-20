@@ -1,9 +1,9 @@
-package com.quantcast.codechallange;
+package com.quantcast.codechallenge;
 
-import com.quantcast.codechallange.common.Validation;
-import com.quantcast.codechallange.exception.InvalidArgsException;
-import com.quantcast.codechallange.model.Cookie;
-import com.quantcast.codechallange.service.MostActiveCookieService;
+import com.quantcast.codechallenge.common.Validation;
+import com.quantcast.codechallenge.exception.InvalidArgsException;
+import com.quantcast.codechallenge.model.Cookie;
+import com.quantcast.codechallenge.service.MostActiveCookieService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;
@@ -17,12 +17,6 @@ public class AppTest {
     private String resourceName = "/cookie-log.csv";
 
     private List<Cookie> testCookieList;
-
-    private String cookieFilePath;
-
-    private String emptyCookieFileName;
-
-    private String url= "";
 
     @Rule
     public ExpectedException exceptionRule = ExpectedException.none();
@@ -58,9 +52,6 @@ public class AppTest {
 
     @Test
     public void notValidDateFormatException(){
- /*       Path resourceDirectory = Paths.get("src","test","resources");
-        String absolutePath = resourceDirectory.toFile().getAbsolutePath();
-        url = absolutePath + resourceName;*/
         Validation.isValid("2012-10");
         Assert.assertFalse(false);
     }
@@ -77,7 +68,7 @@ public class AppTest {
         List<Cookie> emptyList = new ArrayList<>();
         MostActiveCookieService mostActiveCookieService = new MostActiveCookieService();
         String mostActiveCookiePerDate = mostActiveCookieService.getMostActiveCookiePerDate(emptyList, "2019-02-02");
-        Assert.assertEquals(mostActiveCookiePerDate,"Not cookies find in specific date");
+        Assert.assertEquals(mostActiveCookiePerDate,"Not Cookies Find In Specific Date");
     }
 
 }

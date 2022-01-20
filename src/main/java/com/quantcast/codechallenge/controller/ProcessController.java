@@ -1,8 +1,8 @@
-package com.quantcast.codechallange.controller;
+package com.quantcast.codechallenge.controller;
 
-import com.quantcast.codechallange.model.Cookie;
-import com.quantcast.codechallange.service.MostActiveCookieService;
-import com.quantcast.codechallange.service.ReadFileService;
+import com.quantcast.codechallenge.model.Cookie;
+import com.quantcast.codechallenge.service.MostActiveCookieService;
+import com.quantcast.codechallenge.service.ReadFileService;
 
 import java.util.List;
 import java.util.logging.Logger;

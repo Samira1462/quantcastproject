@@ -1,4 +1,4 @@
-package com.quantcast.codechallange.exception;
+package com.quantcast.codechallenge.exception;
 
 public class FileNotExistException extends BaseException{
 

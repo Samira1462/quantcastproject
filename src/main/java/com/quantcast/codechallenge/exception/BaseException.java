@@ -1,4 +1,4 @@
-package com.quantcast.codechallange.exception;
+package com.quantcast.codechallenge.exception;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

@@ -1,13 +1,13 @@
-package com.quantcast.codechallange;
+package com.quantcast.codechallenge;
 
 
-import com.quantcast.codechallange.common.CustomizeCommandLine;
-import com.quantcast.codechallange.common.Validation;
-import com.quantcast.codechallange.controller.ProcessController;
-import com.quantcast.codechallange.model.constant.ArgsEnum;
+import com.quantcast.codechallenge.common.CustomizeCommandLine;
+import com.quantcast.codechallenge.common.Validation;
+import com.quantcast.codechallenge.controller.ProcessController;
+import com.quantcast.codechallenge.model.constant.ArgsEnum;
 import org.apache.commons.cli.CommandLine;
 
-import static com.quantcast.codechallange.common.Validation.validateArgs;
+import static com.quantcast.codechallenge.common.Validation.validateArgs;
 
 public class App  {
 
